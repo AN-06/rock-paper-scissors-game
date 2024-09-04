@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    
+       <button onclick="
+       userMove='Rock';
+       generateComputerMove();
+       evaluateMoves(userMove,computerMove);
+       renderGameSummary();
+       renderGameHistory();
+       console.log(`user move is ${userMove} , computer move is ${computerMove},result is ${result}`);
+       console.log(game);
+       console.log(gameHistory);
+
+
+       ">
+       <img src="rock.png"></button>
+
+       <button onclick="
+       userMove='Paper';
+       generateComputerMove();
+       evaluateMoves(userMove,computerMove);
+       renderGameSummary();
+       renderGameHistory();
+       console.log(`user move is ${userMove} , computer move is ${computerMove},result is ${result}`);
+       console.log(game);
+       console.log(gameHistory);
+
+
+
+       ">
+       <img src="paper.png"></button>
+
+       <button onclick="
+       userMove='Scissors';
+       generateComputerMove();
+       evaluateMoves(userMove,computerMove);
+       renderGameSummary();
+       renderGameHistory();
+       console.log(`user move is ${userMove} , computer move is ${computerMove} ,result is ${result}`);
+       console.log(game);
+       console.log(gameHistory);
+
+
+       ">
+       <img src="scissors.png" ></button>
+
+       <button>
+        <img src="reset.jpg" id="reset-btn" onclick="resetGame();">
+    </button>
+    
+
+       <h1>Game Summary</h1>
+       <table>
+        <tr>
+            <th>Wins</th>
+            <th>Loses</th>
+            <th>Ties</th>
+            <th>Games Played</th>
+
+        </tr>
+        <tr>
+            <td id="wins">0</td>
+            <td id="loses">0</td>
+            <td id="ties">0</td>
+            <td id="games">0</td>
+            
+        </tr>
+       </table>
+
+       <h1>Game History</h1>
+       <table id="gameHistory">
+        
+        
+        
+       </table>
+       <script type="text/javascript" src="scripts/rps.js">
+    
+       </script>
+
+
+    
+</body>
+
+</html>

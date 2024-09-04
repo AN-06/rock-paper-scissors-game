@@ -1,0 +1,48 @@
+body{
+    max-width:1000px;
+    margin:auto;
+    background-color: rgb(127, 195, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    
+    
+}
+
+button img{
+    
+    border-radius:50%;
+    height:150px;
+    width:150px;
+    
+}
+button{
+    border:none;
+    display:-moz-inline-box;
+    background-color: transparent;
+    cursor:pointer;
+    margin:20px;
+    
+
+}
+button:hover{
+    
+    transform: scale(1.3);
+}
+
+table th{
+    background-color: #8A26E2;
+    color:white;
+    padding:5px;
+
+}
+table td{
+    background-color:wheat;
+    color:black;
+    padding:5px;
+
+}
+#reset-btn{
+    height:90px;
+    width:90px;
+
+}
