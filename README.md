@@ -1,6 +1,6 @@
 # Rock Paper Scissors Game
 
-A simple web-based Rock Paper Scissors game built with HTML, CSS, and JavaScript. Play against the computer, track your wins, losses, and ties, and enjoy a persistent game history that saves between sessions.
+A simple web-use Rock Paper Scissors game built with HTML, CSS, and JavaScript. Play against the computer, track your wins, losses, and ties, and enjoy a persistent game history that saves between sessions.
 
 ## Features
 
